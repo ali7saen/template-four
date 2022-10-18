@@ -1,0 +1,30 @@
+/* Button Styling  */
+.btn {
+    position: relative;
+    padding: 25px 40px;
+    width: fit-content;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--dark-sky);
+    text-transform: capitalize;
+    transition: var(--main-transition);
+}
+.btn:hover{
+    background-color:#1b718b;
+}
+/* Main-title Styling */
+.title{
+    margin: 100px 0 50px;
+    text-align:center;
+}
+.title h4{
+    margin:0;
+    font-weight:800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.title h1{
+    text-transform:capitalize;
+    margin:5px 0;
+    font-size: 50px;
+}
